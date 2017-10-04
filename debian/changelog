@@ -1,3 +1,16 @@
+screenshot-antix (0.1.10) unstable; urgency=medium
+
+  * Fixed  bug that happens when there is a "." in the filename that is entered
+
+ -- anticapitalista <antix@operamail.com>  Thu, 06 Jul 2017 19:02:47 +0300
+
+
+screenshot-antix (0.1.9) unstable; urgency=medium
+
+  * Added Turkish
+
+ -- anticapitalista <antix@operamail.com>  Mon, 30 May 2016 16:46:29 +0300
+
 screenshot-antix (0.1.8) unstable; urgency=low 
 
   * Capital 'S' for screenshot in .desktop file

@@ -62,8 +62,9 @@ function choose_dir {
     rm -rf /home/$USER/scr
   else
     dir_path=`dirname "$files"`
-    file_name=`basename "$files" | cut -f1 -d.`
-    file_ext=`basename "$files" | cut -f2 -d.`
+    base_name=$(basename "$files")
+    file_name=${base_name%.*}
+    file_ext=${base_name##*.}
     
     if [ "$file_ext" != "$EXT" ] ; then
       yad --image="error" --title="antiXscreenshot" --text=$"File extension was changed.\nPlease try again."    
